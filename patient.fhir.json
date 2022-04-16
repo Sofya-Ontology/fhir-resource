@@ -1,0 +1,35 @@
+{
+  "resourceType":"Patient",
+  "name": [
+    {
+      "use": "official",
+      "given": ["Allan"],
+      "family": "Ferreira"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1983-02-16",
+  "telecom": [
+    {
+      "value": "14981359266",
+      "use": "mobile",
+      "system":"phone"
+    },
+    {
+      "system": "email",      
+      "value": "ferrerallan@gmail.com"
+    }
+  ],
+  "address": [
+    {
+      "use":"home",
+      "line": [
+          "48, Rua Jose Orlando"        
+      ],
+      "city": "Marília",
+      "state": "São Paulo",
+      "country": "Brazil",
+      "postalCode": "17521576"
+    }
+  ]
+}
